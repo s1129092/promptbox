@@ -3,13 +3,13 @@ name: Publish to PyPI
 on:
   push:
     tags:
-      - "v*.*.*"        # v0.1.0, v1.2.3, etc.
+      - "v*.*.*"
 
 jobs:
   build-and-publish:
     runs-on: ubuntu-latest
     permissions:
-      id-token: write   # required for trusted publishing
+      id-token: write
       contents: read
 
     steps:

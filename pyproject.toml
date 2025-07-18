@@ -1,0 +1,16 @@
+[project]
+name = "promptvault"
+version = "0.0.3"
+description = "PromptVault is a tiny, zero‑dependency helper class for keeping reusable prompt templates in memory and filling them with runtime values."
+authors = [
+    {name = "Noah",email = "github.gutter797@passmail.net"}
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"

@@ -6,7 +6,6 @@ logger = logging.getLogger(__name__)
 class PromptVault:
     def __init__(self):
         self.prompts = {}
-        print("Prompt initialized")
 
     def add(self, data: dict):
         required_keys = ["name", "prompt"]

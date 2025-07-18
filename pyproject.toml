@@ -1,6 +1,6 @@
 [project]
 name = "promptvault"
-version = "0.0.3"
+version = "0.0.4"
 description = "PromptVault is a tiny, zero‑dependency helper class for keeping reusable prompt templates in memory and filling them with runtime values."
 authors = [
     {name = "Noah",email = "github.gutter797@passmail.net"}
